@@ -20,8 +20,7 @@ img {
 
 #greeting {
     font-size: 45px;
-    
-    color: red;
+    color: white;
 }
 
 #todo-form  {
@@ -33,11 +32,17 @@ img {
 
 input[type="text"] {
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     background: none;
     padding-bottom: 10px;
     outline: none;
-    
+    width: 300px;
+}
+
+input::placeholder{
+    text-align: center;
+    color: white;
+    font-weight: 300;
 }
 
 #quote {
@@ -51,7 +56,7 @@ input[type="text"] {
 #clock {
     font-size: 800%;
     position: absolute;
-    left: 50.3%;
+    left: 50%;
     top: 5%;
     transform: translateX(-50%);
     color: white;
@@ -63,9 +68,22 @@ input[type="text"] {
     color: white;
     font-weight: 1000;
     position: absolute;
-    left: 25%;
+    left: 50%;
     top: 43%;
-    transform: translateX(50%);
+    transform: translateX(-50%);
     border-bottom: 2px solid white;
     padding-bottom: 10px;
+}
+
+#login-form{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
+#greeting{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
 }
