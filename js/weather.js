@@ -15,7 +15,7 @@ function onGeo0k(position){
         else {
             city.innerText = data.name;
         }
-        weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
+        weather.innerText = `${data.weather[0].main} / ${data.main.temp}°C`;
         
     });
 }
